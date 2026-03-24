@@ -1,16 +1,13 @@
 import java.util.HashMap;
 public class FirstUniqueCharacterInaString {
 
-    /**
-     * Approach 1: Brute Force
-     * 
-     * Idea:
-     * - For each character, check if it appears anywhere else
-     * - If not, return its index
-     * 
-     * Time Complexity: O(n^2)
-     * Space Complexity: O(1)
-     */
+    
+    //   Approach 1 : Brute Force
+    //   Idea : For each character, check if it appears anywhere else
+    //   If not, return its index
+    //   Time Complexity: O(n^2)
+    //   Space Complexity: O(1)
+    
 
     public static int firstUniqChar1(String s) {
         int n=s.length();
@@ -28,18 +25,13 @@ public class FirstUniqueCharacterInaString {
         }
         return-1;
     }
-    /**
-     * Approach 2: Frequency Array
-     * 
-     * Idea:
-     * - Count frequency of each character using array[26]
-     * - Traverse again to find first character with frequency 1
-     * 
-     * Time Complexity: O(n)
-     * Space Complexity: O(1)
-     * 
-     * Note: Works only for lowercase 'a' to 'z'
-     */
+ 
+    //   Approach 2:    Frequency Array
+    //   Idea : Count frequency of each character using array[26]
+    //   Traverse again to find first character with frequency 1
+    //   Time Complexity : O(n)
+    //   Space Complexity: O(1)
+       
     public static int firstUniqChar2(String s) {
         int n=s.length();
         int count[] = new int[26];
@@ -53,19 +45,13 @@ public class FirstUniqueCharacterInaString {
         }
         return -1;
     }
-    /**
-     * Approach 3: HashMap
-     * 
-     * Idea:
-     * - Store frequency using HashMap
-     * - Traverse string again to find first unique character
-     * 
-     * Time Complexity: O(n)
-     * Space Complexity: O(n)
-     * 
-     * Advantage:
-     * - Works for all characters (not limited to lowercase)
-     */
+
+    //   Approach 3:HashMap
+    //   Idea : Store frequency using HashMap
+    //   Traverse string again to find first unique character
+    //   Time Complexity: O(n)
+    //   Space Complexity: O(n)
+    
     public static int firstUniqChar3(String s) {
         int n=s.length();
         HashMap<Character,Integer>map = new HashMap<>();
