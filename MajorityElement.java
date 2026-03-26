@@ -21,7 +21,7 @@ public  static int majorityElement1(int[] nums) {
         }
         return -1;
     }
-// using HashMap
+// using HashMap method 
 // Time Complexity: O(n)
 // Space Complexity: O(n)
 public  static int majorityElement2(int[] nums) {
