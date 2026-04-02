@@ -1,5 +1,11 @@
 import java.util.*;
 public class ContainsDuplicatesII{
+ /*
+ * Approach:
+ * - Use a HashMap to store each element and its last seen index.
+ * - If the element is already present, calculate the index difference.
+ * - If the difference is less than or equal to k, return true.
+ */
     public static boolean containsNearbyDuplicate(int[] nums, int k) {
         int n = nums.length;
         HashMap<Integer, Integer> map = new HashMap<>();
