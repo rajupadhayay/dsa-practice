@@ -3,7 +3,7 @@ import java.util.*;
 // Problem: Contains Duplicate
 // Platform: LeetCode (217)
 
-// Approach 1: Brute Force
+// Approach 1: Brute Force method 
 // Time: O(n^2)
 // Space: O(1)
 
