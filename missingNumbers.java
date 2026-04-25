@@ -17,7 +17,7 @@ public class missingNumbers {
         // Missing number
         return expectedSum - actualSum;
     }
-    // 2. second approach using XOR method
+    //2. XOR method
     public static int MissingNumber(int nums[]){
        int XOR =0;
        int n=nums.length;
