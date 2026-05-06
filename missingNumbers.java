@@ -1,20 +1,20 @@
 public class missingNumbers {
 // 1. first approach  using substitution method
-    // Method to find the missing number
+    
     public static int findMissingNumber(int[] nums) {
 
         int n = nums.length;
 
-        // Expected sum of numbers from 0 to n
+       
         int expectedSum = n * (n + 1) / 2;
 
-        // Actual sum of array elements
+      
         int actualSum = 0;
         for (int i = 0; i < nums.length; i++) {
             actualSum += nums[i];
         }
 
-        // Missing number
+       
         return expectedSum - actualSum;
     }
     //2. XOR method
