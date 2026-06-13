@@ -44,7 +44,6 @@ public void reverse(){
           n.Head = new Node(1);
     n.Head.next = new Node(2);
     n.Head.next.next = new Node(3);
-    n.Head.next.next.next = new Node(4);
     n.print();
         n.reverse();
      n.print();
