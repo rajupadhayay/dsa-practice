@@ -28,6 +28,7 @@ public class ValidSubarraysWithMatchingSumDigitsI {
     public static void main(String[] args) {
        int [] nums = {1,100,1};
         int x = 1;
-        System.out.println(countValidSubarrays(nums, 1));
+        int ans=countValidSubarrays(nums, 1);
+        System.out.println(ans);
     }
 }
