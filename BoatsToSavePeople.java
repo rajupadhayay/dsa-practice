@@ -1,5 +1,5 @@
 import java.util.Arrays;
-
+// TC O(N)
 public class BoatsToSavePeople {
      public static int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
