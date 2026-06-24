@@ -1,5 +1,5 @@
 public class LinearSearch {
-
+// TC => O(n)
     public static int  linearSearch(int nums[], int Target){
         for(int i=0;i<nums.length;i++){
             if (nums[i]== Target) {
