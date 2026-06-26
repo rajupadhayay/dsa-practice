@@ -1,4 +1,5 @@
 public class NextPermutation {
+    // TC => O(n)
     public static int pivot(int nums[]){
          int pivot = -1;
        for(int i=nums.length-2;i>=0;i--){
