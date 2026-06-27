@@ -1,4 +1,5 @@
 public class CardsFlippingGame {
+    // TC (n)
     public static  int flipgame(int[] fronts, int[] backs) {
 
         int count[] = new int[2001];
